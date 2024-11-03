@@ -1,0 +1,57 @@
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    width: 82%;
+    height: 650px;
+    text-align: center;
+    margin-left: 4vw;
+    padding: 0.2vw;
+    overflow: scroll;
+}
+.dashbox1,.dashbox2,.dashbox3,.dashbox4,.dashbox5,.dashbox6{
+    /* border: 1px solid black; */
+    margin: 2vw;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.dashbox1{
+    color:rgb(255, 201, 5)
+}
+.dashbox2{
+    color: rgb(4, 4, 104);
+}
+.dashbox3{
+    color:rgb(128, 34, 0)
+}
+.dashbox4{
+    color: red;
+}
+.dashbox5{
+    color:green;
+}
+.dashbox6{
+    color: rgb(255, 146, 168);
+}
+.grid::-webkit-scrollbar{
+    display: none;
+}
+@media (max-width:500px){
+    .sidebar{
+        width: 24%;
+        height: -webkit-fill-available;
+    }
+    .grid{
+        width: 76%;
+        height: 650px;
+    }
+    .dashbox1,.dashbox2,.dashbox3,.dashbox4,.dashbox5,.dashbox6{
+        width: 67vw;
+        height: 13vh;
+    }
+}

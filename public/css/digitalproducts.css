@@ -1,0 +1,18 @@
+.courseHeader{
+    justify-content: space-between;
+}
+.course_image{
+    max-width:200px;
+    height: 200px; 
+}
+.course_content{
+    margin-top: 2vh;
+}
+.courses{
+    width: 100%;
+    height: 600px;
+    overflow: scroll;
+}
+.courses::-webkit-scrollbar{
+    display: none;
+}

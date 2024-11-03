@@ -1,0 +1,13 @@
+/* @media (max-width:420px) {
+    .video-controls .options{
+        width: 25%;
+    }
+    .video-controls .options.left{
+        display: block;
+    }
+    .video-controls .options .volumeSection{
+        display: flex;
+        height: 50px;
+        justify-content: center;
+    }
+} */

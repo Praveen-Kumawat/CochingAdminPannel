@@ -1,0 +1,34 @@
+.image_frame{
+    width: 200px;
+    margin: auto;
+    height: 200px;
+    border: 1px solid gainsboro;
+    text-align: center;
+}
+#books_image{
+    width:100px;
+}
+.button{
+    width: 7vw;
+    height: 5vh ;
+    border: none;
+    margin: 5px;
+    /* background-color: steelblue; */
+    /* font -size: 20px; */
+    color: white;
+    /* border-radius: 3px; */
+    
+}
+.books{
+    height: 650px;
+    overflow: scroll;
+}
+.books::-webkit-scrollbar{
+    display: none;
+}
+@media(max-width:500px){
+    .books{
+        width:  -webkit-fill-available;
+    };
+}
+   

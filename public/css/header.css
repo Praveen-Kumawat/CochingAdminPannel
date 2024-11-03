@@ -1,0 +1,109 @@
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    align-items: center;
+    color:#000;
+    justify-content: space-between;
+    padding: 2px 15px 2px 15px;
+    font-size: 20px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    /* position: absolute;
+    z-index: 22; */
+}
+ a{
+    text-decoration: none;
+}
+.footer{
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    height: -webkit-fill-available;
+    width: 224px;
+    display: block;
+    /* margin-top: 40px; */
+    background-color: rgb(251, 251, 251);
+    color: rgb(0, 0, 0);
+    font-weight: light;
+    padding: 2px;
+}
+.sidebar ul{
+    padding-left: 0vw;
+    padding-top: 1vh;
+    list-style: none;
+}
+.sidebar ul li{
+    margin-top: 1vh;
+    padding: 0.25vw;
+    /* padding-left: 0.1vw; */
+    font-size: 16px;
+}
+.sidebar ul li:hover{
+    background-color: rgb(204, 204, 204);
+    cursor: pointer;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: brown;
+}
+#offeringUL{
+    display: none;
+    margin-left: 1vw;
+    padding-left: 1vw;
+}
+#marketingUL{
+    display: none;
+    margin-left: 1vw;
+    padding-left: 1vw;
+}
+#reportingUL{
+    display: none;
+    margin-left: 1vw;
+    padding-left: 1vw;
+}
+#marketingUL li{
+    font-size: 16px;
+}
+#offeringUL li{
+    font-size: 16px;
+}
+#reportingUL li{
+    font-size: 16px;
+}
+#offeringUL li:hover{
+    background-color:rgb(220, 220, 220) ;
+}
+#marketingUL li:hover{
+    background-color:rgb(220, 220, 220) ;
+}
+#reportingUL li:hover{
+    background-color:rgb(220, 220, 220) ;
+}
+.header .logo img{
+    width: 100px;
+    height: 100px;
+}
+#downarrow,#downarrow1,#downarrow2{
+    width: 10px;
+}
+.icon{
+    width: 20px;
+    margin-right: 4px ;
+}
+#menuicon{
+    display: none;
+}
+@media(max-width:700px){
+    #menuicon{
+        width: 20px;
+        display: block;
+        cursor: pointer;
+    }
+}
